@@ -1,9 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.env.token
 var prefix = "MG!";
 
-client.login(token);
+client.login('NjUyNTU0OTQzOTIzODc5OTY5.Xeqeqg.9XNtvPxfJldE153FAm1Oc-_2Ia0');
 
 client.on('guildMemberAdd', function (member) {
     let embed = new Discord.RichEmbed()
